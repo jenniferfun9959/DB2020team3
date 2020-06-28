@@ -1,0 +1,86 @@
+<html>
+<head>
+	<title>修改刪除訂單</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<style>
+	table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	}
+	th, td {
+	padding: 5px;
+	text-align: left;    
+	}
+</style>
+<body>
+	
+	<h1 align="center">您的訂單</h1>
+	<table style="width:50%" align="center">
+		<tr><th>order_id</th><th>旅館</th><th>日期</th><th>房型</th><th>Action</th></tr>
+		
+		<tr>
+			<td>123</td>
+			<td>A旅館</td>
+			<td>20200701</td>
+			<td>單人房</td>
+			<td><a href="delete_order.html">刪除</td>
+		</tr>
+		<tr>
+			<td>456</td>
+			<td>B旅館</td>
+			<td>20200705</td>
+			<td>雙人房</td>
+			<td><a href="delete_order.html">刪除</td>
+		</tr>
+
+
+
+
+	
+	</table>
+	<!--
+	<p align="center"><a href="create_order.html">新增資料</a><p>
+		-->
+</body>
+	
+</html>
+<!--
+<?php
+/*
+		// ******** update your personal settings ******** 
+		$servername = "your_servername";
+		$username = "your_username";
+		$password = "your_password";
+		$dbname = "your_dbname";
+
+		// Connect MySQL server
+		$conn = new mysqli($servername, $username, $password, $dbname);
+		
+		// set up char set
+		if (!$conn->set_charset("utf8")) {
+			printf("Error loading character set utf8: %s\n", $conn->error);
+			exit();
+		}
+		
+		// Check connection
+		if ($conn->connect_error) {
+			die("Connection failed: " . $conn->connect_error);
+		} 
+		
+		// ******** update your personal settings ******** 
+		$sql = "SELECT ...";	// set up your sql query
+		$result = $conn->query($sql);	// Send SQL Query
+
+		if ($result->num_rows > 0) {	
+			while ( $row = mysqli_fetch_array ( $result, MYSQLI_ASSOC ) ) {
+				// Process the Result here
+			}
+		} else {
+			echo "0 results";
+		}
+*/
+?>
+
+				
+	-->
